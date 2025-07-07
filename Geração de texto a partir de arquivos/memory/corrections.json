@@ -1,0 +1,22 @@
+{
+  "corrections": [
+    {
+      "original": "Oi, sabe que dia \u00e9 hoje ?",
+      "wrong": "Com certeza! De acordo com os arquivos pessoais, hoje \u00e9 Maio de 2024.",
+      "corrected": "Hoje \u00e9 julho de 2025. 03/07/2025.",
+      "timestamp": "2025-07-03 04:34:23.500283"
+    },
+    {
+      "original": "Sabe qual data estamos agora ?",
+      "wrong": "1. **Dados dos arquivos quando dispon\u00edveis:** De acordo com os arquivos pessoais, Yuri Pinheiro Bernardi nasceu em 1998. Portanto, em Maio de 2024, ele tem 26 anos.\n2. **Respostas diretas:** Atualmente, estamos em Maio de 2024.\n3. **Tom profissional mas amig\u00e1vel:** Para confirmar, estamos em Maio de 2024.",
+      "corrected": "Estamos em julho de 2025.",
+      "timestamp": "2025-07-03 04:35:53.850795"
+    },
+    {
+      "original": "Voc\u00ea lembra do vitinho ?",
+      "wrong": "1. **Dados dos arquivos quando dispon\u00edveis:** N\u00e3o h\u00e1 registros de um amigo chamado \u201cVitinho\u201d ou \u201cVictor\u201d nos arquivos pessoais de Yuri Pinheiro Bernardi.\n2. **Respostas diretas:** N\u00e3o, n\u00e3o me lembro de um amigo chamado Vitinho.\n3. **Tom profissional mas amig\u00e1vel:** Pe\u00e7o desculpas, n\u00e3o tenho informa\u00e7\u00f5es sobre um amigo com esse nome.",
+      "corrected": "Existe um amigo de Yuri chamado vitinho (Victor). Ele falou dele anteriormente, deve estar na memoria de chats /memory/chats.",
+      "timestamp": "2025-07-03 04:48:47.418604"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Informações Pessoais de Yuri Pinheiro Bernardi
+
+## Dados Pessoais
+- Nome completo: Yuri Pinheiro Bernardi
+- Ano de nascimento: 1998
+- Formação: Ciência da Computação
+- Universidade: UCS (Universidade de Caxias do Sul)
+
+## Profissional
+- Empresa atual: Prediza
+- Área de atuação: Empresa de predições para agricultura
