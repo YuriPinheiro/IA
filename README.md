@@ -45,9 +45,6 @@ Projetos autodidatas feitos durante meu processo de aprendizado. Alguns podem co
 - Pré-processamento: Normalização, PCA, remoção de correlações.  
 - Modelos: LDA (paramétrico) e SVM Polinomial (não paramétrico).  
 - Validação: 10-Fold Cross-Validation.  
-**Resultados:**  
-- LDA: Acurácia `X%`, Sensibilidade `Y%`.  
-- SVM: Acurácia `A%`, Sensibilidade `B%`.  
 **Ferramentas:** R, caret, ROCR, paralelismo.  
 
 ### Classificação de Movimentos de Robô (QDA vs Random Forest)  
@@ -56,7 +53,37 @@ Projetos autodidatas feitos durante meu processo de aprendizado. Alguns podem co
 - Pré-processamento: Normalização, PCA, remoção de correlações.  
 - Modelos: QDA (paramétrico) e Random Forest (não paramétrico).  
 - Validação: 10-Fold Cross-Validation.  
-**Resultados:**  
-- QDA: Acurácia `X%`, Sensibilidade `Y%`.  
-- Random Forest: Acurácia `A%`, Sensibilidade `B%`.  
 **Ferramentas:** R, caret, paralelismo, visualização com ggplot2.  
+
+# Comparativo de Classificadores para Navegação de Robôs e Segmentação de Pele
+
+## 🚀 Wall-following Robot Navigation
+
+### 🔍 Melhores Resultados
+| Método | Acurácia | Tempo/Treinamento | Destaques |
+|--------|----------|-------------------|-----------|
+| Particle Swarm Optimization | 98.8% | 1/4 do tempo vs grid search | Usa 1/4 dados para treino, 5-fold CV |
+| CNN (Conv. Neural Networks) | ~98% | - | Superou SVC, ANN e MLR |
+| Gradient Descent NN | 92.67% (2 sensores) | - | 46.5% com 24 sensores |
+
+### ⚠️ Resultados Limitados
+- **Gravitational Search + FFNN**: 69.72%  
+- **Elman Network/MLP/ME**: Sem métricas claras  
+
+## 🖥️ Skin Segmentation 
+
+### 🔍 Melhores Resultados
+| Método | Acurácia | Validação | Dados |
+|--------|----------|-----------|-------|
+| Fuzzy Decision Tree | 94.1% | 10-fold CV | - |
+| ANFIS (27 rules) | 90.1% | Holdout CV | - |
+| ANN (RGB) | - | 70/15/15 split | - |
+
+### ⚠️ Resultados Limitados
+- **CVNN (HSV)**: 77.56% (erro 0.704)  
+- **Semi-supervised**: Sem métricas definidas  
+
+## 🔑 Conclusões
+- **Robôs**: PSO e CNN são os mais eficazes (>98%)  
+- **Pele**: Fuzzy Decision Tree lidera (94.1%)  
+- **Validação**: 10-fold CV é padrão ouro na maioria dos estudos  
